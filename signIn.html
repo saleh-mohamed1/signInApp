@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body id="indexBody1">
+
+
+    <section class="w-75 mx-auto p-5 mt-5 design">
+        <h1 class="text-info text-center">Smart Login System</h1>
+        <input id="inputName" class="form-control my-3 " placeholder="Enter your Name"    type="text"> 
+        <p class="text-danger d-none">you must include your name atleast 4 letter</p>
+        <input id="inputEmail" class="form-control my-3 " placeholder="Enter your email"    type="email">
+        <p class="text-danger d-none">you must include your email atleast 4 letter + @ + gmail.com or yahoo.com</p>
+        <input id="inputPassword" class="form-control my-3  " placeholder="Enter your password" type="password">
+        <input type="checkbox" name="" id="checkboxPassword" class="mb-3 "> <span class="text-white">show password</span>
+        <p class="text-danger d-none">you must include your password atleast 4 letter or numbers to 9</p>
+        <a id="SignUp" href="#"><button  class=" btn btn-outline-info form-control" type="submit">Sign Up</button></a>
+        <p class="d-none text-danger text-center mt-3 fs-5">All inputs is required</p>
+        <p id="SuccessEmail" class=" d-none text-success text-center mt-3 fs-5">validation is successful </p>
+        <p class="text-center mt-3 text-white fw-bolder">You have an account?  <a href="index.html">Signin</a></p>
+    </section>
+
+
+    <!-- <i class="fa-solid fa-eye-low-vision"></i>
+    <i class="fa-solid fa-eye"></i> -->
+
+    
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

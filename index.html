@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body id="indexBody2">
+
+    <section class="w-75 mx-auto p-5 mt-5 design">
+        <h1 class="text-info text-center">Smart Login System</h1>
+        <input id="emailInputeIndex" class="form-control my-3 " placeholder="Enter your email"    type="text">
+        <p class="text-danger d-none"> please insert write Email that you creat it before</p>
+        <input id="passwordInputeIndex" class="form-control my-3 " placeholder="Enter your password" type="password">
+        <input type="checkbox" name="" id="checkboxPasswordIndex" class="mb-3 "><span class="text-white">show password</span>
+        <p class="text-danger  d-none "> please insert write password that you creat it before</p>
+        <a id="loginPage"  ><button  class=" btn btn-outline-info form-control" type="submit">Login</button></a>
+        <!-- onclick="inserLog()" -->
+        <p class="text-center mt-3 text-white fw-bolder">Don’t have an account? <a href="signIn.html">Sign Up</a></p>
+    </section>
+    <div id="invalidData" class=" d-none position-absolute  invalidData text-center">
+        <i id="btnWarning" class="position-absolute fa-solid fa-xmark bg-info d-flex justify-content-center align-items-center"></i>
+        <h1  class="text-info ">there is wrong please insert your email and password cause there is one empty after click login</h1>
+    </div>
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
