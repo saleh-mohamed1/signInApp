@@ -112,10 +112,10 @@ if (indexBody1 != null) {
     }
     SignUp.addEventListener('click' , function () {
         // localStorage.setItem('userCurrent' , JSON.stringify(arrayInputs));
-        if (arrayInputs.length == 0) {
-            alert('you hav not insert any data please sign up you email and then you can login')
-        }
-        else
+        // if (arrayInputs.length == 0) {
+        //     alert('you hav not insert any data please sign up you email and then you can login')
+        // }
+        // else
         if (arrayInputs.some(email)){
             console.log('already existing');
         }else{
@@ -173,7 +173,7 @@ checkboxPasswordIndex.addEventListener('click' , function (eventInfo) {
                     // console.log(arrayInputs);
                 }
         }
-        
+
     })
     /* function inserLog() {
         for (var i = 0; i < arrayInputs.length; i++) {
